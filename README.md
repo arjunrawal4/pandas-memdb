@@ -5,7 +5,8 @@
 -----------------
 
 # pandas-memdb
-An extension to the pandas library which will support supplying a row selection function to avoid wasting memory when only certain columns or rows are needed.
+An extension to the pandas library which will support supplying a row selection function to avoid wasting memory when only certain columns or rows are needed. The final ReadFast implementation is contained in the Column_Storage.ipynb notebook, and Plotting.ipynb shows results on experiments run. Other notebooks show previous approches with sales_data.ipynb demonstrating an approach which dynamically adjusts chunk sizing to read in variable amounts of data to consistently fully utilize avaible memory.
+
 # pandas: powerful Python data analysis toolkit
 
 <table>
